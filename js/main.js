@@ -112,3 +112,5 @@ jQuery("jpg").on("taphold", function(event) {
     event.preventDefault();
     event.stopImmediatePropagation();
  })
+
+ 

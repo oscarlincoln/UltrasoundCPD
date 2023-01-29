@@ -24,6 +24,10 @@
     <link href="lib/animate/animate.min.css" rel="stylesheet">
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
+    <link rel="stylesheet" href="css/nav.css">
+    <script src="js/nav.js"></script>
+
+
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="chrometheme/chromestyle.css">
@@ -43,36 +47,58 @@
 
 
    <!-- Navbar Start -->
-<div class="chromestyle navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0" id="chromemenu" style=" border:none; background:blue; height:80px; width:100%; margin:0; padding:0; ">
-    <ul>
-    <li style="vertical-align:middle;"><a href="index.html">Home</a></li>
-    <li><a href="about.html" rel="dropmenu1">About</a></li>
-    <li><a href="ultrasound.html" rel="dropmenu2">Ultrasound CPD</a></li>
-    <li><a href="education.html" rel="dropmenu3">Education & Training</a></li>
-    <li><a href="outreach.html" rel="dropmenu4">Outreach</a></li>
-    <li><a href="research.html" rel="dropmenu5">Research</a></li>
-    <!--<div class="clr"></div><hr  />-->
-    <li style="vertical-align:middle;"><a href="accreditation.html" rel="dropmenu6">Accreditation & Protocols</a></li>
-    <li><a href="service.html" rel="dropmenu7">Services</a></li>	
-    <li><a href="g.html" rel="dropmenu8">Gallery</a></li>
-    <li><a href="contact.html" rel="dropmenu9" style="border:none;">Contact</a></li>
-    </ul>
+<div class="wrap bg-light">
+    <div class="container">
+        <div class="row justify-content-between">
+                <div class="col mt-2">
+                   <h1 style="font-size: 30px;">Ultrasound</h1>
+                </div>
+                <div class="col d-flex justify-content-end">
+                    <div class="social-media">
+                    <p class=" d-flex">
+                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+256-774189648 &nbsp; &  &nbsp;+256-757863951</p>
+                    </p>
+            </div>
+                </div>
+        </div>
     </div>
+</div>
+<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar   ftco-navbar-light" id="ftco-navbar" style="background-color:#06BBCC ;">
+<div class="container">
+    <!-- <span style="margin-right: 6vh; font-size: 40px; margin-left: -110px; color: white; font-weight: bolder;">Ultrasound</span> -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="fa fa-bars"></span>
+</button>
+  <div class="collapse navbar-collapse" id="ftco-nav">
+    <ul class="navbar-nav m-auto">
+        <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+        <li class="nav-item"><a href="ultrasound.html" class="nav-link">Ultrasound CPD</a></li>
+      <li class="nav-item"><a href="education.html" class="nav-link">Education & Training</a></li>
+      <li class="nav-item"><a href="outreach.html" class="nav-link">Outreach</a></li>
+      <li class="nav-item"><a href="research.html" class="nav-link">Research</a></li>
+      <li class="nav-item"><a href="accreditation.html" class="nav-link">Accreditation & Protocols</a></li>
+      <li class="nav-item"><a href="service.html" class="nav-link">Services</a></li>
+      <li class="nav-item"><a href="g.html" class="nav-link">Gallery</a></li>
+    <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+    </ul>
+  </div>
+</div>
+</nav>
+<!-- END nav -->
  <!-- Navbar End -->
 
 
     <!-- Header Start -->
-    <div class="container-fluid bg-primary py-5 mb-5 page-header" style="background: linear-gradient(rgba(24, 29, 56, .7), rgba(24, 29, 56, .7)), url(picture/ultrasound/education.jpg);">
+    <div class="container-fluid py-5 mb-5 page-header" style="background: linear-gradient(rgba(24, 29, 56, .7), rgba(24, 29, 56, .7)), url(picture/1.jpeg);  background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; height: 400px;">
         <div class="container py-5">
             <div class="row justify-content-center">
                 <div class="col-lg-10 text-center">
-                    <h1 class="display-3 text-white animated slideInDown">Education & Training</h1>
+                    <h1 class="display-3 text-white animated slideInDown">Education and Training</h1>
                     <nav aria-label="breadcrumb">
-                        <ol class="breadcrumb justify-content-center">
-                            <li class="breadcrumb-item"><a class="text-white" href="index.html">Home</a></li>
-                            
-                            <li class="breadcrumb-item text-white active" aria-current="page">Education & Training</li>
-                        </ol>
+                        
                     </nav>
                 </div>
             </div>
@@ -147,8 +173,8 @@
         
         
 
-   <!-- Footer Start -->
-   <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+  <!-- Footer Start -->
+  <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
     <div class="container py-5">
         <div class="row g-5">
             <div class="col-lg-4 col-md-6">
@@ -175,10 +201,10 @@
            
             <div class="col-lg-4 col-md-6">
                 <h4 class="text-white mb-3">Newsletter</h4>
-                <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                
                 <div class="position-relative mx-auto" style="max-width: 400px;">
                     <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
-                    <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                    <button type="button" class="btn py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
                 </div>
             </div>
         </div>
@@ -204,10 +230,8 @@
 </div>
 <!-- Footer End -->
 
-
     <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
-
+    <a href="#" class="btn btn-lg btn-lg-square back-to-top" style="background-color: #06BBCC;"><i class="bi bi-arrow-up"></i></a>
 
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
