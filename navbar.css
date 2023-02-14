@@ -1,0 +1,66 @@
+  .con{
+    margin-right: 10px;
+   }
+   .ult{
+    margin-left: 10px;
+   }
+  .nav {
+    height: 53px;
+    width: 100%;
+    background-color: black;
+    position: relative;
+    justify-content: center;
+    
+  }
+  
+  .nav > .nav-links {
+    display: inline;
+    float: right;
+    font-size: 18px;
+   
+  }
+  
+  .nav > .nav-links > a {
+    display: inline-block;
+    padding: 13px 10px 13px 10px;
+    text-decoration: none;
+    color: #efefef;
+  }
+  
+  .nav > .nav-links > a:hover {
+    background-color: #06BBCC;
+    color: black;
+  }
+  
+  .nav > #nav-check {
+    display: none;
+  }
+  
+  @media (max-width:850px) {
+    .nav > .nav-links {
+      position: relative;
+      display: flex;
+      width: 100%;
+      background-color: black;
+      height: 53px;
+      left: 0px;
+      right: 0px;
+        float: right;
+        font-size: 8px;
+    }
+    .nav > .nav-links > a {
+      display: flex;
+      width: 100%;
+    }
+    .nav > .nav-links > a:hover {
+        background-color: #06BBCC;
+        color: black;
+      }
+    .nav > #nav-check:not(:checked) ~ .nav-links {
+      height: 0px;
+    }
+    .nav > #nav-check:checked ~ .nav-links {
+      height: calc(100vh - 50px);
+      overflow-y: auto;
+    }
+  }

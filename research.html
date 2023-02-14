@@ -30,10 +30,7 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
-
-     <link rel="stylesheet" href="css/nav.css">
-    <script src="js/nav.js"></script>
-
+    <link rel="stylesheet" href="navbar.css">
 </head>
 
 <body>
@@ -46,59 +43,40 @@
     <!-- Spinner End -->
 
 
-  <!-- Navbar Start -->
-  <div class="wrap bg-light">
-    <div class="container">
-        <div class="row justify-content-between">
-                <div class="col mt-2">
-                   <h1 style="font-size: 30px;">Ultrasound</h1>
-                </div>
-                <div class="col d-flex justify-content-end">
-                    <div class="social-media">
-                    <p class=" d-flex">
-                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+256-774189648 &nbsp; &  &nbsp;+256-757863951</p>
-                    </p>
-            </div>
-                </div>
-        </div>
-    </div>
-</div>
-<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light" id="ftco-navbar" style="background-color:#06BBCC ;">
-<div class="container">
-    <!-- <span style="margin-right: 6vh; font-size: 40px; margin-left: -110px; color: white; font-weight: bolder;">Ultrasound</span> -->
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="fa fa-bars"></span>
-</button>
-  <div class="collapse navbar-collapse" id="ftco-nav">
-    <ul class="navbar-nav m-auto">
-        <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
-        <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-        <li class="nav-item"><a href="ultrasound.html" class="nav-link">Ultrasound CPD</a></li>
-      <li class="nav-item"><a href="education.html" class="nav-link">Education & Training</a></li>
-      <li class="nav-item"><a href="outreach.html" class="nav-link">Outreach</a></li>
-      <li class="nav-item"><a href="research.html" class="nav-link">Research</a></li>
-      <li class="nav-item"><a href="accreditation.html" class="nav-link">Accreditation & Protocols</a></li>
-      <li class="nav-item"><a href="service.html" class="nav-link">Services</a></li>
-      <li class="nav-item"><a href="g.html" class="nav-link">Gallery</a></li>
-    <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
-    </ul>
+   <!-- Navbar Start -->
+   <nav>
+   <div class="mySection" style="display: flex; justify-content: space-between;">
+    <div class="ult" style="font-size: 30px;font-weight: bolder;"><span>Ultrasound</span></div>
+    <div class="con" style="padding-top: 10px;">contact information</div>
   </div>
-</div>
+  <div class="nav">
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="service.html">Services</a>
+      <a href="ultrasound.html">UltrasoundCPD</a>
+      <a href="education.html">Education & Training</a>
+      <a href="outreach.html">Outreach</a>
+      <a href="research.html">Research</a>
+      <a href="accreditation.html">Accreditation & Protocols</a>
+      <a href="g.html">Gallery</a>
+      <a href="contact.html">Contact</a>
+    </div>
 </nav>
-<!-- END nav -->
  <!-- Navbar End -->
 
-
     <!-- Header Start -->
-    <div class="container-fluid py-5 mb-5 page-header" style="background: linear-gradient(rgba(24, 29, 56, .7), rgba(24, 29, 56, .7)), url(picture/1.jpeg);  background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; height: 400px;">
+    <div class="container-fluid bg-primary py-5 mb-5 page-header">
         <div class="container py-5">
             <div class="row justify-content-center">
                 <div class="col-lg-10 text-center">
                     <h1 class="display-3 text-white animated slideInDown">Research</h1>
                     <nav aria-label="breadcrumb">
-                        
+                        <ol class="breadcrumb justify-content-center">
+                            <li class="breadcrumb-item"><a class="text-white" href="index.html">Home</a></li>
+                            
+                            <li class="breadcrumb-item text-white active" aria-current="page">Research</li>
+                        </ol>
                     </nav>
                 </div>
             </div>
@@ -205,10 +183,10 @@
            
             <div class="col-lg-4 col-md-6">
                 <h4 class="text-white mb-3">Newsletter</h4>
-                
+                <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
                 <div class="position-relative mx-auto" style="max-width: 400px;">
                     <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
-                    <button type="button" class="btn py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                    <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
                 </div>
             </div>
         </div>
@@ -236,7 +214,8 @@
 
 
     <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-lg-square back-to-top" style="background-color: #06BBCC;"><i class="bi bi-arrow-up"></i></a>
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
 
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
